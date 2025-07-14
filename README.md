@@ -15,14 +15,27 @@ A Java API for interacting with the UltimateCoinflip plugin, allowing you to man
 
 ## Getting Started
 
-1. **Add the API as a dependency**
+1. **Add jitpack repository**
+   - Using maven, inside `pom.xml`
+     ```xml
+     <repositories>
+   	    <repository>
+   		    <id>jitpack.io</id>
+   		    <url>https://jitpack.io</url>
+   	    </repository>
+	 </repositories>
+     ```
+2. **Add the API as a dependency**
+   - Replace `VERSION` with the Jitpack version
+
+     [![](https://jitpack.io/v/xef5000/UltimateCoinflipAPI.svg)](https://jitpack.io/#xef5000/UltimateCoinflipAPI)
    - If using Maven, add the following to your `pom.xml`:
      ```xml
      <dependency>
-       <groupId>com.github.xef5000</groupId>
-       <artifactId>ultimatecoinflip-api</artifactId>
-       <version>1.1.1</version>
-       <scope>provided</scope>
+        <groupId>com.github.xef5000</groupId>
+        <artifactId>UltimateCoinflipAPI</artifactId>
+        <version>VERSION</version>
+        <scope>provided</scope>
      </dependency>
      ```
    - Or add the JAR directly to your plugin's `libs` folder.
