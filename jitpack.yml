@@ -1,0 +1,3 @@
+# JitPack configuration file
+jdk:
+  - openjdk17
