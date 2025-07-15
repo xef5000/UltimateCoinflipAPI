@@ -6,7 +6,7 @@
 
     <groupId>ca.xef5000</groupId>
     <artifactId>ultimatecoinflip-api</artifactId>
-    <version>1.2.0a</version>
+    <version>1.2.1</version>
 
     <packaging>jar</packaging>
 
